@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>grocery registration</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+        body {
+            display: flex;
+            height:100vh;
+            justify-content:center;
+            align-items:center;
+            padding:10px;
+            background:linear-gradient(135deg, #71b7e6, #9b59b6);
+        }
+        .container{
+            max-width:700px;
+            width:100%;
+            background:#fff;
+            padding:25px 30px;
+            border-radius: 5px;
+        }
+        .container form .user-details{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+        } 
+        form .user-details .input-box{
+            margin: 20px 0 12px 0;
+            width:calc(100% / 2 - 40px);
+        }
+        .user-details .input-box .details{
+            display: block;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .user-details .input-box input{
+            height: 40px;
+            width: 100%;
+            padding: 16px;
+            border-radius: 7px;
+            outline-style: hidden;
+            outline:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <p><form action="#">
+                <b style="font-size:25px;font-weight: 500px;text-decoration: underline;text-decoration-color:#9b59b6">Reg</b><b style="font-size:25px;font-weight: 500px;">istration</b><BR>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Fullname</span>
+                            <input type="text"placeholder="enter fullname"><br>
+                        </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text"placeholder="enter username"><br>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="enter email"><br>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mobile</span>
+                        <input type="text" placeholder="enter mobile number"><br>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="enter your password"><br>
+                    </div>
+                    <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" placeholder="confirm password"><br>
+                </div>
+                <div class="gender">
+                    Gender<br><br>
+                    <input type="radio" value="male">male&emsp;&emsp;&emsp;
+                    <input type="radio" value="female">female<br><br>
+                </div>
+                    </div>
+
+            </form></p>
+            <button>Submit</button>
+          </div>
+          <style>
+            button{
+                border-radius:5px;
+                background:linear-gradient(135deg, #71b7e6, #9b59b6);
+                border-bottom:20px;
+                height:30px;
+                width:70px;
+            }
+          </style>
+</body>
+</html>
